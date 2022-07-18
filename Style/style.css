@@ -15,7 +15,6 @@ body{
     align-items:center;
 }
 .logo img{
-    background-image: url(../Img/Headear/Base.png);
     margin-right: 15px;
 }
 .logo_title{
@@ -79,4 +78,40 @@ body{
 }
 .section_logo{
     padding: 30px 0 106px;
+}
+.components_grid{
+    display:grid;
+    grid-template-columns: repeat(4, 262px);
+    height: 300px;
+    gap: 30px;
+}
+.section_comp{
+    background-color: rgba(0, 161, 198, 0.2);
+    padding: 110px 0 110px; 
+}
+.div_comp{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    Font-style: bold;
+    Font-size: 22px;
+    Line-height: 28px;
+    color: #2B292D;
+    text-align: center;
+}
+.section_img{
+    margin-top: 22px;
+}
+.text_comp{
+    margin-bottom: 33px;
+}
+.pic_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(3, 3fr);
+    gap: 41px
+}
+.item_pic:nth-child(3), .item_pic:nth-child(4) {
+    grid-row: span 2;
 }
