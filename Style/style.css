@@ -57,7 +57,7 @@ body{
 .header_button:hover{
     cursor: pointer;
     transition: 500ms;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #1124d0;
+    background: #3040C4;
 }
 .section{
    background-color: #F4F5F7;
@@ -85,6 +85,50 @@ body{
     height: 300px;
     gap: 30px;
 }
+.section_div_comp{
+    text-align: center;
+}
+.section_title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: #2B292D;
+    margin-bottom: 24px;
+}
+.section_h2{
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #2B292D;
+    margin-bottom: 30px;
+}
+.section_text{
+    font-size: 24px;
+    line-height: 34px;
+    color: rgba(43, 41, 45, 0.6);
+    margin-bottom: 34px;
+}
+.comp_button{
+    width: 160px;
+    height: 48px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 13px;
+    color: #000000;
+    margin-bottom: 111px;
+}
+.comp_button:hover{
+    transition: 500ms;
+    background: #3040C4;
+    color: #FFFFFF;
+}
+.comp_button:not(:first-child){
+    margin-left: 10px;
+}
 .section_comp{
     background-color: rgba(0, 161, 198, 0.2);
     padding: 110px 0 110px; 
@@ -100,18 +144,41 @@ body{
     color: #2B292D;
     text-align: center;
 }
+.div_comp:hover{
+    background: #3141C5; 
+    color: #FFFFFF;
+    transition: 500ms;
+}
 .section_img{
     margin-top: 22px;
 }
 .text_comp{
     margin-bottom: 33px;
 }
+.section_div_pic{
+    text-align: center;
+}
 .pic_grid{
     display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    grid-template-rows: repeat(3, 3fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 41px
 }
 .item_pic:nth-child(3), .item_pic:nth-child(4) {
     grid-row: span 2;
+}
+.section_pic_h2{
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #2B292D;
+    margin-bottom: 26px;
+    margin-top: 90px;
+}
+.section_pic_text{
+    font-size: 24px;
+    line-height: 34px;
+    color: rgba(43, 41, 45, 0.6);
+    margin-bottom: 97px;
 }
